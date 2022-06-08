@@ -11,7 +11,7 @@ const AddTask = ({ addTask }) => {
 
   return (
     <div className={styles.todoForm}>
-      <input data-testid="add-task-input" type="text" value={newTask} onChange={({ target }) => setNewTask(target.value)}/>
+      <input data-testid="add-task-input" type="text" value={newTask} onChange={({ target }) => setNewTask(target.value)} placeholder="Add Task..."/>
       <button data-testid="add-task-button" onClick={handleClick}>+</button>
     </div>
   );
