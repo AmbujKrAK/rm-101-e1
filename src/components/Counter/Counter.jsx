@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import styles from "./counter.module.css";
 
 const Counter = ({ taskId, count, updateCount }) => {
